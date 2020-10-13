@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Botstrap setup with DOwnloads</title>
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <style>
+      .green {
+        background-color: palegreen;
+        height: 100vh;
+      }
+      /* xs */
+      @media (max-width: 575px) {
+        .green {
+          background-color: palevioletred;
+          height: 100vh;
+        }
+      }
+      /* sm */
+      @media (min-width: 576px) and (max-width: 767px) {
+        .green {
+          background-color: palegoldenrod;
+          height: 100vh;
+        }
+      }
+      /* md */
+      @media (min-width: 768px) and (max-width: 991px) {
+        .green {
+          background-color: paleturquoise;
+          height: 100vh;
+        }
+      }
+      /* lg */
+      @media (min-width: 992px) and (max-width: 1199px) {
+        .green {
+          background-color: orange;
+          height: 100vh;
+        }
+      }
+      /* xl */
+      @media (min-width: 1200) {
+        .green {
+          background-color: #cc11cc;
+          height: 100vh;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid green">aa</div>
+    <!--Media Queries- are some specified CSS rules that apply only when some specific conditions
+    are going to met-->
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

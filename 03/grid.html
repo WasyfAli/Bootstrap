@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Botstrap setup with DOwnloads</title>
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+  </head>
+  <style>
+    .con {
+      background-color: #a1a1a1;
+      height: 100vh;
+    }
+    .grey {
+      background-color: orange;
+      height: 200px;
+    }
+    .gr {
+      background-color: red;
+      height: 200px;
+    }
+  </style>
+  <body>
+    <div class="container con">
+      <div class="row">
+        <div class="col-sm grey">Coloumn I</div>
+        <div class="col-sm gr">Coloumn II</div>
+        <div class="col-sm grey">Coloumn III</div>
+      </div>
+      <div class="row">1</div>
+      <div class="row justify-content-md-center">
+        <div class="col-sm grey">Coloumn I</div>
+        <div class="col-sm col-md-auto gr">Coloumn II Coloumn II</div>
+        <div class="col-sm grey">Coloumn III</div>
+      </div>
+
+      <div class="row">2</div>
+      <div class="row">
+        <div class="col grey">Coloumn I</div>
+        <div class="col gr">Coloumn II</div>
+        <div class="w-100"></div>
+        <div class="col grey">Coloumn III</div>
+        <div class="col gr">Coloumn IV</div>
+      </div>
+      <div class="row">3</div>
+      <div class="row">
+        <div class="col-lg-6 col-md-4 col-sm-6 col-xs-6 grey">Coloumn I</div>
+        <div class="col-lg-3 col-md-4 col-sm-3 col-xs-3 gr">Coloumn II</div>
+
+        <div class="col-lg-3 col-md-4 col-sm-3 col-xs-3 grey">Coloumn III</div>
+      </div>
+    </div>
+
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
